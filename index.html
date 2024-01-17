@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- container -->
+    <main class="container" id="container">
+      <!-- HEADER AREA -->
+      <header class="header">
+        <nav class="header-nav">
+          <figure>
+            <img
+              src="images/logo.svg"
+              class="header-logo-img"
+              alt="logo image"
+            />
+          </figure>
+          <!-- NAV MENU AREA -->
+          <ul class="header-nav-menu" id="header-nav-menu">
+            <li class="header-nav-menu-item">
+              <a href="#" id="features"
+                >Features<img
+                  src="images/icon-arrow-down.svg"
+                  id="icon-features"
+                  class="arrow-icon"
+                  alt="icon arrow"
+              /></a>
+              <!-- DROP DOWN MENU FEATURES AREA -->
+              <ul class="header-nav-menu-features" id="features-menu">
+                <li class="header-nav-menu-features-item">
+                  <a href="#"
+                    ><img
+                      src="images/icon-todo.svg"
+                      class="features-menu-icon"
+                      alt="Todo List Icon"
+                    />Todo List</a
+                  >
+                </li>
+                <li class="header-nav-menu-features-item">
+                  <a href="#"
+                    ><img
+                      src="images/icon-calendar.svg"
+                      class="features-menu-icon"
+                      alt="Calendar Icon"
+                    />Calendar</a
+                  >
+                </li>
+                <li class="header-nav-menu-features-item">
+                  <a href="#"
+                    ><img
+                      src="images/icon-reminders.svg"
+                      class="features-menu-icon"
+                      alt="Reminders Icon"
+                    />Reminders</a
+                  >
+                </li>
+                <li class="header-nav-menu-features-item">
+                  <a href="#"
+                    ><img
+                      src="images/icon-planning.svg"
+                      class="features-men-icon"
+                      alt="Planning Icon"
+                    />Planning</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-menu-item">
+              <a href="#" id="company"
+                >Company<img
+                  src="images/icon-arrow-down.svg"
+                  id="icon-company"
+                  class="arrow_icon"
+                  alt="icon arrow"
+              /></a>
+              <!-- DROP DOWN MENU COMPANY AREA -->
+              <ul class="header-nav-menu-company" id="company-menu">
+                <li class="header-nav-menu-company-item">
+                  <a href="#">History</a>
+                </li>
+                <li class="header-nav-menu-company-item">
+                  <a href="#">Our Team</a>
+                </li>
+                <li class="header-nav-menu-company-item">
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </li>
+            <li class="header-nav-menu-item"><a href="#">Careers</a></li>
+            <li class="header-nav-menu-item"><a href="#">About</a></li>
+            <li class="header-account-menu-item-mobile">
+              <a href="#">Login</a>
+            </li>
+            <li class="header-account-menu-item-mobile">
+              <a href="#">Register</a>
+            </li>
+          </ul>
+          <ul class="header-account-menu">
+            <li class="header-account-menu-item"><a href="#">Login</a></li>
+            <li class="header-account-menu-item"><a href="#">Register</a></li>
+          </ul>
+          <a href="#" class="icon-mobile-menu" id="icon-mobile-menu"></a>
+        </nav>
+      </header>
+      <!-- CONTENT AREA -->
+      <section class="content">
+        <h1 class="content-title">Make remote work</h1>
+        <p class="content-parag">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="content-btn">Learn more</button>
+        <div class="content-client-logo">
+          <figure>
+            <img
+              src="images/client-databiz.svg"
+              class="content-client-logo-img"
+              alt="databiz logo"
+            />
+          </figure>
+          <figure>
+            <img
+              src="images/client-audiophile.svg"
+              class="content-client-logo-img"
+              alt="audiophile logo"
+            />
+          </figure>
+          <figure>
+            <img
+              src="images/client-meet.svg"
+              class="content-client-logo-img"
+              alt="meet logo"
+            />
+          </figure>
+          <figure>
+            <img
+              src="images/client-maker.svg"
+              class="content-client-logo-img"
+              alt="maker logo"
+            />
+          </figure>
+        </div>
+      </section>
+      <div class="hero">
+        <picture class="hero-image">
+          <source
+            media="(min-width: 601px)"
+            srcset="images/image-hero-desktop.png"
+          />
+          <img
+            src="images/image-hero-mobile.png"
+            class="hero-image-img"
+            alt="hero image"
+          />
+        </picture>
+      </div>
+    </main>
+    <div class="mask" id="mask"></div>
+
+    <script src="script.js"></script>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Rituraj</a>.
+    </div> -->
+  </body>
+</html>
